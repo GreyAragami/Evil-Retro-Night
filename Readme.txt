@@ -19,6 +19,7 @@ To connect as admin and be able to add news or bands :
 first name = Admin
 password = admin
 email = admin@admin.com
+Every user can become an admin with a change in the DB => USERS => Admin = True
 
 Preview: http://dtsl.ehb.be/~gregory.descamps/ERN
 

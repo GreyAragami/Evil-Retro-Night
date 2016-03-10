@@ -15,7 +15,7 @@ if (isset($_POST["TITLE"]) && $_POST["TITLE"] != ""
 && isset($_POST["CONTENT"]) && $_POST["CONTENT"] != ""
     && isset($_POST["AUTHOR"]) && $_POST["AUTHOR"]!= ""
 ) {
-    $stmt = $conn->prepare('UPDATE ENTRIES SET TITLE = ?, SUMMARY = ?, CONTENT = ?, AUTHOR = ? WHERE postID = ?') ;
+    $stmt = $conn->prepare('UPDATE ENTRIES SET TITLE = ?, SUMMARY = ?, CONTENT = ?, AUTHOR = ? WHERE id = ?');
     $stmt->bind_param("sssss",$_POST['TITLE'],$_POST['SUMMARY'],$_POST['CONTENT'],$_POST['AUTHOR'],$_POST['id']);
     $stmt->execute();
 
@@ -30,8 +30,8 @@ if (isset($_POST["TITLE"]) && $_POST["TITLE"] != ""
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,300,400' rel='stylesheet'
           type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
-    <script src="js/tinymce.js" ></script>
+    <script src="//cdn.tinymce.com/4/tinymce.min.js" type="text/javascript"></script>
+    <script src="js/tinymce.js" type="text/javascript"></script>
 </head>
 
 <body>
