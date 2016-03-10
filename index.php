@@ -4,7 +4,6 @@ include("./config/config.php");
 //DOET DE WARNINGS NIET VERSCHIJNEN
 error_reporting(E_ALL ^ E_NOTICE);
 
-
 //Checken of de form niet leeg is of gedefinieerd is.
 if (isset($_POST["login"]) && $_POST["login"] != ""
     && isset($_POST["password"]) && $_POST["password"] != ""
@@ -32,7 +31,6 @@ if (isset($_POST["login"]) && $_POST["login"] != ""
 }
 
 if (isset($_GET['delpost'])) {
-
     $query = $conn->prepare('DELETE FROM ENTRIES WHERE id = ?');
     $query->bind_param('s',$_GET['delpost']);
     $query->execute();
@@ -40,7 +38,6 @@ if (isset($_GET['delpost'])) {
     exit;
 }
 ?>
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
