@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="32a89198-1afa-4f4e-967c-43ef3643f28d" name="Default" comment="added band edit &amp; delete style&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/delband.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/edit-lineup.php" afterPath="" />
+    <list default="true" id="32a89198-1afa-4f4e-967c-43ef3643f28d" name="Default" comment="added edit &amp; delete band&#10;Style changes for bands&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style2.css" afterPath="$PROJECT_DIR$/css/style2.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/delband.js" afterPath="$PROJECT_DIR$/js/delband.js" />
     </list>
     <ignored path="Evil Retro Night.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,16 +43,16 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47740442">
+            <state vertical-scroll-proportion="0.7463768">
               <caret line="175" column="36" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="36" />
               <folding>
-                <marker date="1457701036060" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
-                <marker date="1457701036060" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
-                <marker date="1457701036060" expanded="true" signature="1372:1404" placeholder="DELETE FROM " />
-                <marker date="1457701036060" expanded="true" signature="1706:2274" placeholder="..." />
-                <marker date="1457701036060" expanded="true" signature="1713:2274" placeholder="..." />
-                <marker date="1457701036060" expanded="true" signature="5286:5324" placeholder="SELECT * FRO... ENTRIES" />
-                <marker date="1457701036060" expanded="true" signature="7014:7047" placeholder="SELECT * FRO... LINE_UP" />
+                <marker date="1457702093131" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
+                <marker date="1457702093131" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
+                <marker date="1457702093131" expanded="true" signature="1374:1406" placeholder="DELETE FROM " />
+                <marker date="1457702093131" expanded="true" signature="1708:2276" placeholder="..." />
+                <marker date="1457702093131" expanded="true" signature="1715:2276" placeholder="..." />
+                <marker date="1457702093131" expanded="true" signature="5288:5326" placeholder="SELECT * FRO... ENTRIES" />
+                <marker date="1457702093131" expanded="true" signature="7016:7049" placeholder="SELECT * FRO... LINE_UP" />
               </folding>
             </state>
           </provider>
@@ -67,8 +64,8 @@
             <state vertical-scroll-proportion="-1.9230769">
               <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
-                <marker date="1457695299475" expanded="true" signature="142:176" placeholder="SELECT * FRO... LINE_UP" />
-                <marker date="1457695299475" expanded="true" signature="528:613" placeholder="UPDATE LINE_... " />
+                <marker date="1457705056733" expanded="true" signature="142:176" placeholder="SELECT * FRO... LINE_UP" />
+                <marker date="1457705056733" expanded="true" signature="530:615" placeholder="UPDATE LINE_... " />
               </folding>
             </state>
           </provider>
@@ -123,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/js/delband.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -195,8 +192,8 @@
         <option value="$PROJECT_DIR$/js/delband.js" />
         <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/config/config.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/style2.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -379,18 +376,30 @@
       <option name="project" value="LOCAL" />
       <updated>1457654079447</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added edit &amp; delete band&#10;Style changes for bands&#10;">
+      <created>1457702104477</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1457702104477</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added edit &amp; delete band&#10;Style changes for bands&#10;">
+      <created>1457705058795</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1457705058795</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16927083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -422,7 +431,8 @@
     <MESSAGE value="added dataSource, SqlDialects for PHPStorm&#10;&#10;Edited faulty SQL statement in edit-post.php" />
     <MESSAGE value="added dataSource, SqlDialects for PHPStorm&#10;                                            &#10;Edited faulty SQL statement in edit-post.php" />
     <MESSAGE value="Added sources in readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added sources in readme" />
+    <MESSAGE value="added edit &amp; delete band&#10;Style changes for bands&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added edit &amp; delete band&#10;Style changes for bands&#10;" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -457,13 +467,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
           <folding>
-            <marker date="1457701036060" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
-            <marker date="1457701036060" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1372:1404" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1706:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="1713:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="5286:5324" placeholder="SELECT * FRO... ENTRIES" />
-            <marker date="1457701036060" expanded="true" signature="7014:7047" placeholder="SELECT * FRO... LINE_UP" />
+            <marker date="1457702093131" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
+            <marker date="1457702093131" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1374:1406" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1708:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="1715:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="5288:5326" placeholder="SELECT * FRO... ENTRIES" />
+            <marker date="1457702093131" expanded="true" signature="7016:7049" placeholder="SELECT * FRO... LINE_UP" />
           </folding>
         </state>
       </provider>
@@ -547,13 +557,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="100" column="42" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
           <folding>
-            <marker date="1457701036060" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
-            <marker date="1457701036060" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1372:1404" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1706:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="1713:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="5286:5324" placeholder="SELECT * FRO... ENTRIES" />
-            <marker date="1457701036060" expanded="true" signature="7014:7047" placeholder="SELECT * FRO... LINE_UP" />
+            <marker date="1457702093131" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
+            <marker date="1457702093131" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1374:1406" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1708:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="1715:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="5288:5326" placeholder="SELECT * FRO... ENTRIES" />
+            <marker date="1457702093131" expanded="true" signature="7016:7049" placeholder="SELECT * FRO... LINE_UP" />
           </folding>
         </state>
       </provider>
@@ -603,13 +613,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="40" selection-start-line="82" selection-start-column="40" selection-end-line="82" selection-end-column="40" />
           <folding>
-            <marker date="1457701036060" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
-            <marker date="1457701036060" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1372:1404" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1706:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="1713:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="5286:5324" placeholder="SELECT * FRO... ENTRIES" />
-            <marker date="1457701036060" expanded="true" signature="7014:7047" placeholder="SELECT * FRO... LINE_UP" />
+            <marker date="1457702093131" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
+            <marker date="1457702093131" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1374:1406" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1708:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="1715:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="5288:5326" placeholder="SELECT * FRO... ENTRIES" />
+            <marker date="1457702093131" expanded="true" signature="7016:7049" placeholder="SELECT * FRO... LINE_UP" />
           </folding>
         </state>
       </provider>
@@ -641,13 +651,13 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
           <folding>
-            <marker date="1457701036060" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
-            <marker date="1457701036060" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1372:1404" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1706:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="1713:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="5286:5324" placeholder="SELECT * FRO... ENTRIES" />
-            <marker date="1457701036060" expanded="true" signature="7014:7047" placeholder="SELECT * FRO... LINE_UP" />
+            <marker date="1457702093131" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
+            <marker date="1457702093131" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1374:1406" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1708:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="1715:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="5288:5326" placeholder="SELECT * FRO... ENTRIES" />
+            <marker date="1457702093131" expanded="true" signature="7016:7049" placeholder="SELECT * FRO... LINE_UP" />
           </folding>
         </state>
       </provider>
@@ -822,7 +832,7 @@
     <entry file="file://$PROJECT_DIR$/js/delband.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -856,8 +866,8 @@
         <state vertical-scroll-proportion="-1.9230769">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
-            <marker date="1457695299475" expanded="true" signature="142:176" placeholder="SELECT * FRO... LINE_UP" />
-            <marker date="1457695299475" expanded="true" signature="528:613" placeholder="UPDATE LINE_... " />
+            <marker date="1457705056733" expanded="true" signature="142:176" placeholder="SELECT * FRO... LINE_UP" />
+            <marker date="1457705056733" expanded="true" signature="530:615" placeholder="UPDATE LINE_... " />
           </folding>
         </state>
       </provider>
@@ -872,16 +882,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47740442">
+        <state vertical-scroll-proportion="0.7463768">
           <caret line="175" column="36" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="36" />
           <folding>
-            <marker date="1457701036060" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
-            <marker date="1457701036060" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1372:1404" placeholder="DELETE FROM " />
-            <marker date="1457701036060" expanded="true" signature="1706:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="1713:2274" placeholder="..." />
-            <marker date="1457701036060" expanded="true" signature="5286:5324" placeholder="SELECT * FRO... ENTRIES" />
-            <marker date="1457701036060" expanded="true" signature="7014:7047" placeholder="SELECT * FRO... LINE_UP" />
+            <marker date="1457702093131" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
+            <marker date="1457702093131" expanded="true" signature="1147:1179" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1374:1406" placeholder="DELETE FROM " />
+            <marker date="1457702093131" expanded="true" signature="1708:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="1715:2276" placeholder="..." />
+            <marker date="1457702093131" expanded="true" signature="5288:5326" placeholder="SELECT * FRO... ENTRIES" />
+            <marker date="1457702093131" expanded="true" signature="7016:7049" placeholder="SELECT * FRO... LINE_UP" />
           </folding>
         </state>
       </provider>
