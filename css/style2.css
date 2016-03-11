@@ -66,6 +66,16 @@ p {
     text-align: center;
 }
 
+.bandEditDel {
+    text-align: center;
+    font-family: 'Press Start 2P';
+}
+
+.bandPlaytime {
+    font-family: 'Droid Sans', sans-serif;
+    text-align: center;
+}
+
 .notco {
     text-align: center;
 }
@@ -86,6 +96,7 @@ p {
 
 .bandName {
     text-align: center;
+    font-family: 'Press Start 2P';
 }
 
 .band-white {
@@ -498,10 +509,6 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
         padding-left: 0px;
     }
 
-    .hamburger-button.w--open {
-        background-color: #cf404d;
-    }
-
     .form-wrapper.squeezed {
         padding-right: 8%;
         padding-left: 8%;
@@ -530,6 +537,7 @@ html.w-mod-js *[data-ix="scale-on-scroll"] {
     .nav-menu {
         background-color: #6a2167;
         padding-bottom: 40px;
+        top: 0px;
     }
 
     .logo-link {

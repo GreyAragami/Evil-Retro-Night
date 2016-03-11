@@ -37,6 +37,13 @@ if (isset($_GET['delpost'])) {
     header('Location: index.php?action=deleted');
     exit;
 }
+if (isset($_GET['delband'])) {
+    $query = $conn->prepare('DELETE FROM LINE_UP WHERE id = ?');
+    $query->bind_param('s', $_GET['delband']);
+    $query->execute();
+    header('Location: index.php?action=deleted');
+    exit;
+}
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -52,9 +59,10 @@ if (isset($_GET['delpost'])) {
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700,300,400' rel='stylesheet'
           type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
-    <script src="js/smooth-scroll.js"></script>
-    <script src="js/delpost.js"></script>
-    <script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
+    <script type="text/javascript" src="js/delpost.js"></script>
+    <script type="text/javascript" src="js/delband.js"></script>
+    <script type="text/javascript" src="//cdn.tinymce.com/4/tinymce.min.js"></script>
 </head>
 <body>
 <!-- Facebook SDK -->
@@ -165,13 +173,22 @@ if (isset($_GET['delpost'])) {
             <div class="bandName">
                 <h3><?php echo($row["band_name"]); ?></h3>
             </div>
+            <div class="bandPlaytime">
+                <h2><?php echo($row["playtime"]); ?></h2>
+            </div>
             <!-- description -->
             <div class="bandDesc">
                 <?php echo($row["description"]); ?>
             </div>
+            <div class="bandEditDel">
+                <?php if ($_SESSION['admin'] == 'true') { ?>
+                    <a href="edit-band.php?id=<?php echo $row['id']; ?>">Edit</a> |
+                    <a href="javascript:delband('<?php echo $row['id']; ?>','<?php echo $row['band_name']; ?>')">Delete</a>
+                <?php } ?>
+            </div>
             <?php }
             } else { ?>
-                <div class="article-white">
+                <div class="band-white">
                     <p>Er zijn momenteel nog geen artiesten bekendgemaakt !</p>
                 </div>
             <?php } ?>
