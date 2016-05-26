@@ -28,3 +28,8 @@ Buying tickets, Contact => any account
 Export database => Not implemented yet.
 
 
+Sources:
+https://developers.facebook.com
+https://dev.twitter.com/
+https://www.tinymce.com/
+https://daveismyname.com/creating-a-blog-from-scratch-with-php-bp
