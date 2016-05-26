@@ -4,6 +4,10 @@
     <list default="true" id="32a89198-1afa-4f4e-967c-43ef3643f28d" name="Default" comment="added edit &amp; delete band&#10;Style changes for bands&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> origin/master
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/delband.js" afterPath="$PROJECT_DIR$/js/delband.js" />
     </list>
     <ignored path="Evil Retro Night.iws" />
@@ -42,7 +46,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.47740442">
+=======
+            <state vertical-scroll-proportion="0.7463768">
+>>>>>>> origin/master
               <caret line="175" column="36" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="36" />
               <folding>
                 <marker date="1457702093131" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
@@ -63,8 +71,13 @@
             <state vertical-scroll-proportion="-1.9230769">
               <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
+<<<<<<< HEAD
                 <marker date="1457695299475" expanded="true" signature="142:176" placeholder="SELECT * FRO... LINE_UP" />
                 <marker date="1457695299475" expanded="true" signature="528:613" placeholder="UPDATE LINE_... " />
+=======
+                <marker date="1457705056733" expanded="true" signature="142:176" placeholder="SELECT * FRO... LINE_UP" />
+                <marker date="1457705056733" expanded="true" signature="530:615" placeholder="UPDATE LINE_... " />
+>>>>>>> origin/master
               </folding>
             </state>
           </provider>
@@ -381,18 +394,32 @@
       <option name="project" value="LOCAL" />
       <updated>1457702104477</updated>
     </task>
+<<<<<<< HEAD
     <option name="localTasksCounter" value="5" />
+=======
+    <task id="LOCAL-00005" summary="added edit &amp; delete band&#10;Style changes for bands&#10;">
+      <created>1457705058795</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1457705058795</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+>>>>>>> origin/master
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16927083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32875264" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+>>>>>>> origin/master
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -859,8 +886,13 @@
         <state vertical-scroll-proportion="-1.9230769">
           <caret line="21" column="28" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
           <folding>
+<<<<<<< HEAD
             <marker date="1457695299475" expanded="true" signature="142:176" placeholder="SELECT * FRO... LINE_UP" />
             <marker date="1457695299475" expanded="true" signature="528:613" placeholder="UPDATE LINE_... " />
+=======
+            <marker date="1457705056733" expanded="true" signature="142:176" placeholder="SELECT * FRO... LINE_UP" />
+            <marker date="1457705056733" expanded="true" signature="530:615" placeholder="UPDATE LINE_... " />
+>>>>>>> origin/master
           </folding>
         </state>
       </provider>
@@ -875,7 +907,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.47740442">
+=======
+        <state vertical-scroll-proportion="0.7463768">
+>>>>>>> origin/master
           <caret line="175" column="36" selection-start-line="175" selection-start-column="24" selection-end-line="175" selection-end-column="36" />
           <folding>
             <marker date="1457702093131" expanded="true" signature="504:601" placeholder="SELECT * fro... USERS" />
