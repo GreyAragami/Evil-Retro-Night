@@ -21,7 +21,7 @@ password = admin
 email = admin@admin.com
 Every user can become an admin with a change in the DB => USERS => Admin = True
 
-Preview: http://dtsl.ehb.be/~gregory.descamps/ERN
+Preview: /
 
 Buying tickets, Contact => any account
 
